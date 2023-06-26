@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title> Protfolio</title>
+    <link rel="stylesheet" href="portfolio.css" class="css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="portfolio.js" class="js">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+</head>
+<body>
+<header> 
+    <h class="name"> portfolio</h>
+    <nav>
+                <div class="nav">
+                  <a class="nav-link" href="#section1">About me</a>
+                  <a class="nav-link" href="#section2"> Experience </a>
+                  <a class="nav-link" href="#section3"> Contact </a>
+            </div>
+          </nav>
+</header>
+    <main class="main" id="section1"> 
+        <div class="left">
+            <section1> 
+                <h1 class="d1"> welcome to my portfolio </h1>
+                <h2> My name is <span class="nameclr"> Hamza Tariq  </span></h2>
+                <div class="d2"> and I am a Developer </div>
+                <span id="element"></span>
+
+            </section>
+
+        </div>
+        <div class="right">
+            <section2 class="img"> <img src="2.png.png" alt="img load"> </section2>
+        </div>
+
+    </main>
+    <section class="sec2" id="section2"> 
+        <h> Work Experience</h>
+        <div class="work">
+            <div class="emblem">
+                <div class="e">
+                    <img src="emblem.jpg" alt="">
+                    <h2> Emblem Technologies  </h2>
+                    
+                </div>
+                <div class="e">
+                    <h3> .Net Internship</h3>
+                    <p> During my 3-month tenure at Knowledge Streams' .NET
+                        Bootcamp, I gained hands-on experience in various
+                        technologies, including .NET, C#, MVC, MySQL, and Entity
+                        Framework. As a .NET Developer Trainee, I was part of a
+                        dynamic team responsible for developing and maintaining web
+                        applications using Microsoft technologies. Gained experience in MVC architecture, creating models, views, and controllers for maintainable code, and implemented front- end functionalities using HTML, CSS, and JavaScript. </p>
+                </div>
+            </div>
+            <div class="motive">
+                <img src="motive.jpg" alt="">
+                <h2> Motive  </h2>
+                <h3> Data Annotation </h3>
+                <p> During my 10 months of  Experience I have gained experience in working with a live tool, where my responsibilities involved video annotation and image annotation tasks. This entailed accurately labeling and marking objects or features within videos and images. Additionally, I have proficiently handled various tasks using Microsoft Excel, such as data entry, organization, analysis, and utilizing formulas and functions to manipulate and present data. Furthermore, I have actively contributed to operations coordination, successfully managing and coordinating tasks to ensure smooth workflow, including scheduling, communication, and overall coordination within teams or organizations.</p>
+            </div>
+            <div class="it">
+                <img src="it.jpg" alt="">
+                <h2> IT Tech Solutions  </h2>
+                <h3> SQA Intern </h3>
+                <p> 3 months of experience in Automation of web-based
+                    Applications and backend testing using testing tools like
+                    selenium Knowledge of Quality Assurance standards with a
+                    better understanding of Software Development life
+                    cycle(SDLC) </p>
+            </div>
+
+        </div>
+    </section>
+   <section class="sec3" id="section3"> 
+    <div class="skills"> 
+     <h1> My Skills</h1>
+    </div>
+    <div class="s">
+    <li> python <img src="icons8-python-48.png" alt=""> </li>
+    <li> Django <img src="icons8-django-48.png" alt=""> </li>
+    <li> Dot NET <img src="icons8-asp-48.png" alt=""> </li>
+    <li> My SQL <img src="icons8-mysql-48.png" alt="">  </li>
+    <li> HTMl <img src="icons8-html5-48.png" alt=""> </li>
+    <li> CSS <img src="icons8-css-48.png" alt=""> </li>
+    <li> JavaScript <img src="icons8-javascript-64.png" alt=""> </li>
+    </div>
+    <hr>
+    <div class="contact"> <h1> Contact</h1></div>
+    <div class="link">
+        <a class="w" href="#">Whatsapp <i class="fa-brands fa-whatsapp"></i></a>
+        <a class="l" href="https://www.linkedin.com/in/hamza-tariq-6390a2222/"> Linkdin <i class="fa-brands fa-linkedin"></i></a>
+        <a class="g" href="https://github.com/Hamza4845"> Github <i class="fa-brands fa-github"></i> </a>
+    </div>
+    <div>
+        <button class="btn">
+            <a href="Hamza tariq.pdf" target="_blank">Download Resume</a>
+          </button>
+    </div>
+   </section>
+   
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script> 
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Python Developer.', 'Net Developer.','Front-End developer.','Back-End Developer.' ],
+          typeSpeed: 50,
+        });
+      </script>  
+</body>
+</html>
